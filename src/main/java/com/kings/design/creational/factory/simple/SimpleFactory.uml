@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="151.0">com.kings.design.creational.factory.VeggPizza</node>
+    <node x="293.0" y="297.0">com.kings.design.creational.factory.simple.SimplePizzaFactory</node>
+    <node x="65.0" y="0.0">com.kings.design.creational.factory.AbstractPizza</node>
+    <node x="164.0" y="151.0">com.kings.design.creational.factory.BeefPizza</node>
+    <node x="0.0" y="297.0">com.kings.design.creational.factory.simple.PizzaStore</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kings.design.creational.factory.BeefPizza" target="com.kings.design.creational.factory.AbstractPizza">
+      <point x="0.0" y="-50.5" />
+      <point x="236.0" y="126.0" />
+      <point x="198.5" y="126.0" />
+      <point x="44.5" y="50.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.VeggPizza" target="com.kings.design.creational.factory.AbstractPizza">
+      <point x="0.0" y="-50.5" />
+      <point x="72.0" y="126.0" />
+      <point x="109.5" y="126.0" />
+      <point x="-44.5" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="216.0" y="275.0" />
+  <SelectedNodes>
+    <node>com.kings.design.creational.factory.VeggPizza</node>
+    <node>com.kings.design.creational.factory.simple.SimplePizzaFactory</node>
+    <node>com.kings.design.creational.factory.AbstractPizza</node>
+    <node>com.kings.design.creational.factory.BeefPizza</node>
+    <node>com.kings.design.creational.factory.simple.PizzaStore</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

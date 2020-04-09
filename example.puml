@@ -1,0 +1,22 @@
+@startuml
+autonumber
+participant User
+
+User -> A: DoWork
+activate A
+
+A -> B: << createRequest >>
+activate B
+
+B -> C: DoWork
+activate C
+C --> B: WorkDone
+deactivate C
+
+B --> A: RequestCreated
+deactivate B
+
+A -> User: Done
+deactivate A
+
+@enduml

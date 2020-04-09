@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kings.design.creational.factory.dynamic</OriginalElement>
+  <nodes>
+    <node x="503.99999999999994" y="151.0">com.kings.design.creational.factory.VeggPizza</node>
+    <node x="46.99999999999994" y="173.0">com.kings.design.creational.factory.dynamic.DynamicFactory</node>
+    <node x="299.79999999999995" y="0.0">com.kings.design.creational.factory.AbstractPizza</node>
+    <node x="106.79999999999995" y="322.0">com.kings.design.creational.factory.dynamic.PizzaStoreLuom</node>
+    <node x="403.04999999999995" y="322.0">com.kings.design.creational.factory.dynamic.PizzaStoreWanda</node>
+    <node x="320.99999999999994" y="151.0">com.kings.design.creational.factory.BeefPizza</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kings.design.creational.factory.dynamic.PizzaStoreWanda" target="com.kings.design.creational.factory.dynamic.DynamicFactory">
+      <point x="-95.25" y="-39.5" />
+      <point x="434.79999999999995" y="282.0" />
+      <point x="237.49999999999994" y="282.0" />
+      <point x="63.5" y="28.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.VeggPizza" target="com.kings.design.creational.factory.AbstractPizza">
+      <point x="0.0" y="-50.5" />
+      <point x="576.0" y="131.0" />
+      <point x="424.3999999999999" y="131.0" />
+      <point x="35.599999999999966" y="50.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.dynamic.PizzaStoreLuom" target="com.kings.design.creational.factory.dynamic.DynamicFactory">
+      <point x="-31.75" y="-39.5" />
+      <point x="202.04999999999995" y="292.0" />
+      <point x="110.49999999999994" y="292.0" />
+      <point x="-63.5" y="28.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.BeefPizza" target="com.kings.design.creational.factory.AbstractPizza">
+      <point x="0.0" y="-50.5" />
+      <point x="392.99999999999994" y="131.0" />
+      <point x="388.79999999999995" y="131.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="352.0" y="200.5" />
+  <SelectedNodes>
+    <node>com.kings.design.creational.factory.VeggPizza</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

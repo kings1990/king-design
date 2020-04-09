@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kings.design.creational.factory.abstractFactory.AbstractFactoryI</OriginalElement>
+  <nodes>
+    <node x="107.92142857142858" y="191.0">com.kings.design.creational.factory.AppleMilk</node>
+    <node x="545.9214285714286" y="191.0">com.kings.design.creational.factory.VeggPizza</node>
+    <node x="528.9214285714286" y="0.0">com.kings.design.creational.factory.AbstractPizza</node>
+    <node x="173.67142857142858" y="0.0">com.kings.design.creational.factory.AbstractMilk</node>
+    <node x="271.9214285714286" y="202.0">com.kings.design.creational.factory.abstractFactory.AbstractFactoryI</node>
+    <node x="723.8499999999999" y="191.0">com.kings.design.creational.factory.BeefPizza</node>
+    <node x="506.4630952380951" y="382.0">com.kings.design.creational.factory.abstractFactory.HotFoodFactory</node>
+    <node x="32.46309523809509" y="382.0">com.kings.design.creational.factory.abstractFactory.ColdFoodFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kings.design.creational.factory.abstractFactory.ColdFoodFactory" target="com.kings.design.creational.factory.abstractFactory.AbstractFactoryI">
+      <point x="36.285714285714334" y="-39.5" />
+      <point x="195.74880952380943" y="342.0" />
+      <point x="335.4214285714286" y="342.0" />
+      <point x="-63.5" y="39.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.abstractFactory.HotFoodFactory" target="com.kings.design.creational.factory.abstractFactory.AbstractFactoryI">
+      <point x="-36.28571428571428" y="-39.5" />
+      <point x="597.1773809523809" y="312.0" />
+      <point x="462.4214285714286" y="312.0" />
+      <point x="63.5" y="39.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.abstractFactory.HotFoodFactory" target="com.kings.design.creational.factory.AbstractPizza">
+      <point x="108.85714285714286" y="-39.5" />
+      <point x="742.320238095238" y="362.0" />
+      <point x="878.3499999999999" y="362.0" />
+      <point x="878.3499999999999" y="121.0" />
+      <point x="689.1214285714286" y="121.0" />
+      <point x="71.20000000000005" y="50.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.abstractFactory.HotFoodFactory" target="com.kings.design.creational.factory.AbstractMilk">
+      <point x="72.57142857142858" y="-39.5" />
+      <point x="706.0345238095238" y="362.0" />
+      <point x="704.6714285714285" y="362.0" />
+      <point x="704.6714285714285" y="141.0" />
+      <point x="320.6714285714286" y="141.0" />
+      <point x="63.0" y="50.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.abstractFactory.ColdFoodFactory" target="com.kings.design.creational.factory.AbstractMilk">
+      <point x="-108.85714285714278" y="-39.5" />
+      <point x="50.60595238095232" y="362.0" />
+      <point x="0.0" y="362.0" />
+      <point x="0.0" y="141.0" />
+      <point x="194.67142857142858" y="141.0" />
+      <point x="-63.0" y="50.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.abstractFactory.AbstractFactoryI" target="com.kings.design.creational.factory.AbstractPizza">
+      <point x="63.5" y="-39.5" />
+      <point x="462.4214285714286" y="171.0" />
+      <point x="582.3214285714284" y="171.0" />
+      <point x="-35.60000000000002" y="50.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.abstractFactory.ColdFoodFactory" target="com.kings.design.creational.factory.AbstractPizza">
+      <point x="-72.57142857142856" y="-39.5" />
+      <point x="86.89166666666654" y="352.0" />
+      <point x="34.726190476190425" y="352.0" />
+      <point x="34.726190476190425" y="161.0" />
+      <point x="546.7214285714285" y="161.0" />
+      <point x="-71.20000000000005" y="50.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.abstractFactory.AbstractFactoryI" target="com.kings.design.creational.factory.AbstractMilk">
+      <point x="-63.5" y="-39.5" />
+      <point x="335.4214285714286" y="151.0" />
+      <point x="278.6714285714286" y="151.0" />
+      <point x="21.0" y="50.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.VeggPizza" target="com.kings.design.creational.factory.AbstractPizza">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.BeefPizza" target="com.kings.design.creational.factory.AbstractPizza">
+      <point x="0.0" y="-50.5" />
+      <point x="795.8499999999999" y="131.0" />
+      <point x="653.5214285714285" y="131.0" />
+      <point x="35.60000000000002" y="50.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.abstractFactory.ColdFoodFactory" target="com.kings.design.creational.factory.VeggPizza">
+      <point x="72.57142857142856" y="-39.5" />
+      <point x="232.03452380952365" y="352.0" />
+      <point x="563.9214285714286" y="352.0" />
+      <point x="-54.0" y="50.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.abstractFactory.HotFoodFactory" target="com.kings.design.creational.factory.VeggPizza">
+      <point x="0.0" y="-39.5" />
+      <point x="633.4630952380951" y="362.0" />
+      <point x="635.9214285714286" y="362.0" />
+      <point x="18.0" y="50.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.AppleMilk" target="com.kings.design.creational.factory.AbstractMilk">
+      <point x="0.0" y="-50.5" />
+      <point x="179.92142857142858" y="151.0" />
+      <point x="236.67142857142858" y="151.0" />
+      <point x="-21.0" y="50.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.abstractFactory.HotFoodFactory" target="com.kings.design.creational.factory.AppleMilk">
+      <point x="-108.85714285714283" y="-39.5" />
+      <point x="524.6059523809523" y="332.0" />
+      <point x="197.92142857142858" y="332.0" />
+      <point x="18.0" y="50.5" />
+    </edge>
+    <edge source="com.kings.design.creational.factory.abstractFactory.ColdFoodFactory" target="com.kings.design.creational.factory.AppleMilk">
+      <point x="-36.285714285714334" y="-39.5" />
+      <point x="123.17738095238076" y="362.0" />
+      <point x="125.92142857142858" y="362.0" />
+      <point x="-54.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="427.5" y="120.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
