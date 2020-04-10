@@ -10,15 +10,41 @@
   </nodes>
   <notes />
   <edges>
+    <edge source="com.kings.design.creational.builder.RobotWorker" target="com.kings.design.creational.builder.Robot">
+      <point x="72.5" y="-28.5" />
+      <point x="300.75" y="514.0" />
+      <point x="288.0" y="514.0" />
+      <point x="288.0" y="131.0" />
+      <point x="253.4833333333333" y="131.0" />
+      <point x="41.599999999999966" y="50.5" />
+    </edge>
     <edge source="com.kings.design.creational.builder.SmartRobotBuilder" target="com.kings.design.creational.builder.RobotBuilder">
       <point x="-81.75" y="-82.5" />
       <point x="0.0" y="61.5" />
     </edge>
+    <edge source="com.kings.design.creational.builder.SmartRobotBuilder" target="com.kings.design.creational.builder.Robot">
+      <point x="81.75" y="-82.5" />
+      <point x="250.25" y="299.0" />
+      <point x="222.88333333333333" y="299.0" />
+      <point x="222.88333333333333" y="131.0" />
+      <point x="232.6833333333333" y="131.0" />
+      <point x="20.799999999999983" y="50.5" />
+    </edge>
+    <edge source="com.kings.design.creational.builder.RobotWorker" target="com.kings.design.creational.builder.SmartRobotBuilder">
+      <point x="-72.5" y="-28.5" />
+      <point x="155.75" y="514.0" />
+      <point x="168.5" y="514.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="com.kings.design.creational.builder.RobotBuilder" target="com.kings.design.creational.builder.Robot">
+      <point x="0.0" y="-61.5" />
+      <point x="87.0" y="131.0" />
+      <point x="170.28333333333333" y="131.0" />
+      <point x="-41.599999999999994" y="50.5" />
+    </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.0" x="187.0" y="298.0" />
-  <SelectedNodes>
-    <node>com.kings.design.creational.builder.Robot</node>
-  </SelectedNodes>
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>
