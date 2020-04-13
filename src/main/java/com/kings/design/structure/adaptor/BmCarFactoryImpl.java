@@ -10,7 +10,8 @@ public class BmCarFactoryImpl implements CarFactory{
         c.setName("宝马");
         return c;
     }
-
+    
+    //单例
     private static volatile BmCarFactoryImpl INSTANCE = new BmCarFactoryImpl();
 
     public BmCarFactoryImpl() {

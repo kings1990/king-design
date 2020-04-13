@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kings.design.structure.bridge</OriginalElement>
+  <nodes>
+    <node x="198.0" y="128.0">com.kings.design.structure.bridge.BlackColor</node>
+    <node x="0.0" y="256.0">com.kings.design.structure.bridge.CarImpl</node>
+    <node x="120.5" y="0.0">com.kings.design.structure.bridge.Color</node>
+    <node x="399.0" y="128.0">com.kings.design.structure.bridge.WhiteColor</node>
+    <node x="0.0" y="107.0">com.kings.design.structure.bridge.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kings.design.structure.bridge.WhiteColor" target="com.kings.design.structure.bridge.Color">
+      <point x="0.0" y="-28.5" />
+      <point x="489.5" y="77.0" />
+      <point x="278.875" y="77.0" />
+      <point x="67.875" y="28.5" />
+    </edge>
+    <edge source="com.kings.design.structure.bridge.BlackColor" target="com.kings.design.structure.bridge.Color">
+      <point x="0.0" y="-28.5" />
+      <point x="288.5" y="87.0" />
+      <point x="233.625" y="87.0" />
+      <point x="22.625" y="28.5" />
+    </edge>
+    <edge source="com.kings.design.structure.bridge.CarImpl" target="com.kings.design.structure.bridge.Car">
+      <point x="44.5" y="-28.5" />
+      <point x="44.5" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="290.0" y="156.5" />
+  <SelectedNodes>
+    <node>com.kings.design.structure.bridge.BlackColor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

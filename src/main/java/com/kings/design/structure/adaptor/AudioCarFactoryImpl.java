@@ -9,6 +9,7 @@ public class AudioCarFactoryImpl implements CarFactory{
         return c;
     }
 
+    //单例
     private static volatile AudioCarFactoryImpl INSTANCE = new AudioCarFactoryImpl();
 
     public AudioCarFactoryImpl() {
