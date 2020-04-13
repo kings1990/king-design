@@ -8,6 +8,22 @@ public class AudioCarFactoryImpl implements CarFactory{
         c.setName("奥迪");
         return c;
     }
+
+    private static volatile AudioCarFactoryImpl INSTANCE = new AudioCarFactoryImpl();
+
+    public AudioCarFactoryImpl() {
+    }
+
+    public static AudioCarFactoryImpl getInstance(){
+        if(INSTANCE == null){
+            synchronized (AudioCarFactoryImpl.class){
+                if(INSTANCE == null){
+                    INSTANCE =  new AudioCarFactoryImpl();
+                }
+            }
+        }
+        return INSTANCE;
+    }
 }
 
 
