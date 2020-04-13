@@ -1,5 +1,9 @@
 # 设计模式
 
+![](https://img.shields.io/badge/language-java-orange.svg)
+[![](https://travis-ci.com/kings1990/king-design.svg?branch=master)](https://travis-ci.com/kings1990/king-design)
+
+
 ## 0.目录
 
 - 创建型模式(creational)
