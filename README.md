@@ -144,7 +144,8 @@ lombok @Builder使用的就是建造者模式
 注意事项：适配器不是在详细设计时添加的，而是解决正在服役的项目的问题
 ```
 
-源码参考 **RequestMappingHandlerAdapter.handleInternal(464)->invokeHandlerMethod(543)->  
+源码参考
+**RequestMappingHandlerAdapter.handleInternal(464)->invokeHandlerMethod(543)->  
 ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invokeForRequest(54)-->getMethodArgumentValues(62)**
 
 
@@ -166,7 +167,14 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 注意事项：对于两个独立变化的维度，使用桥接模式再适合不过了。
 ```
 
+个人理解：
 
+```
+适配器模式是已有2个的两个接口，让他们相容
+桥接模式是分离抽象化和实现，使两者的接口可以不同，目的是分离
+桥接是先有桥，才有两端的东西
+适配是先有两边的东西，才有适配器
+```
 
 ### 1.3 行为型模式(behaviour)
 
