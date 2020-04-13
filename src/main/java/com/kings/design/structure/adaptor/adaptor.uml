@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kings.design.structure.adaptor.AudioCarFactoryImpl</OriginalElement>
+  <nodes>
+    <node x="316.3379120879121" y="0.0">com.kings.design.structure.adaptor.Car</node>
+    <node x="0.0" y="289.0">com.kings.design.structure.adaptor.CarAdaptor</node>
+    <node x="422.68223443223445" y="396.0">com.kings.design.structure.adaptor.BmCarFactoryImpl</node>
+    <node x="164.68223443223445" y="396.0">com.kings.design.structure.adaptor.AudioCarFactoryImpl</node>
+    <node x="268.3571428571429" y="513.0">com.kings.design.structure.adaptor.CarAdaptorImpl</node>
+    <node x="331.1071428571429" y="289.0">com.kings.design.structure.adaptor.CarFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kings.design.structure.adaptor.BmCarFactoryImpl" target="com.kings.design.structure.adaptor.CarFactory">
+      <point x="-69.33333333333331" y="-28.5" />
+      <point x="457.34890109890114" y="371.0" />
+      <point x="442.1071428571429" y="371.0" />
+      <point x="37.00000000000003" y="28.5" />
+    </edge>
+    <edge source="com.kings.design.structure.adaptor.AudioCarFactoryImpl" target="com.kings.design.structure.adaptor.CarFactory">
+      <point x="79.33333333333331" y="-28.5" />
+      <point x="363.01556776556777" y="371.0" />
+      <point x="368.1071428571429" y="371.0" />
+      <point x="-37.0" y="28.5" />
+    </edge>
+    <edge source="com.kings.design.structure.adaptor.CarAdaptorImpl" target="com.kings.design.structure.adaptor.CarAdaptor">
+      <point x="-117.08333333333337" y="-71.5" />
+      <point x="291.7738095238095" y="493.0" />
+      <point x="124.0" y="493.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="315.5" y="328.0" />
+  <SelectedNodes>
+    <node>com.kings.design.structure.adaptor.AudioCarFactoryImpl</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

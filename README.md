@@ -10,6 +10,7 @@
   * builder 建造者模式
   * prototype 原型模式
 - 结构型模式(structure)
+  * adaptor 适配器模式
   * proxy 代理模式
 - 行为型模式(behaviour)
   * state 状态模式
@@ -106,6 +107,7 @@ lombok @Builder使用的就是建造者模式
 ```
 
 > 原型模式(prototype)
+
 ```
 优点： 
 1.性能提高。 
@@ -127,6 +129,22 @@ lombok @Builder使用的就是建造者模式
 
 ### 1.2 结构型模式(structure)
 
+> 适配器模式(adaptor)
+
+```
+优点： 
+1.可以让任何两个没有关联的类一起运行。 
+2.提高了类的复用。 
+3.增加了类的透明度。 
+4.灵活性好。
+
+使用场景：有动机地修改一个正常运行的系统的接口，这时应该考虑使用适配器模式。
+
+注意事项：适配器不是在详细设计时添加的，而是解决正在服役的项目的问题
+```
+
+源码参考 **RequestMappingHandlerAdapter.handleInternal(464)->invokeHandlerMethod(543)->  
+ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invokeForRequest(54)-->getMethodArgumentValues(62)**
 
 ### 1.3 行为型模式(behaviour)
 
