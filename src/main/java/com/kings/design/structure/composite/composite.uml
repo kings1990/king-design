@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kings.design.structure.composite</OriginalElement>
+  <nodes>
+    <node x="0.0" y="333.0">com.kings.design.structure.composite.Lol</node>
+    <node x="225.25000000000003" y="0.0">com.kings.design.structure.composite.Game</node>
+    <node x="351.0" y="333.0">com.kings.design.structure.composite.Cs</node>
+    <node x="151.00000000000003" y="301.0">com.kings.design.structure.composite.GameStore</node>
+    <node x="502.0" y="333.0">com.kings.design.structure.composite.Wzry</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kings.design.structure.composite.Wzry" target="com.kings.design.structure.composite.Game">
+      <point x="0.0" y="-49.5" />
+      <point x="567.5" y="271.0" />
+      <point x="406.375" y="271.0" />
+      <point x="77.625" y="125.5" />
+    </edge>
+    <edge source="com.kings.design.structure.composite.GameStore" target="com.kings.design.structure.composite.Game">
+      <point x="0.0" y="-81.5" />
+      <point x="241.00000000000003" y="281.0" />
+      <point x="302.875" y="281.0" />
+      <point x="-25.875" y="125.5" />
+    </edge>
+    <edge source="com.kings.design.structure.composite.Lol" target="com.kings.design.structure.composite.Game">
+      <point x="0.0" y="-49.5" />
+      <point x="65.5" y="271.0" />
+      <point x="251.12500000000003" y="271.0" />
+      <point x="-77.625" y="125.5" />
+    </edge>
+    <edge source="com.kings.design.structure.composite.Cs" target="com.kings.design.structure.composite.Game">
+      <point x="0.0" y="-49.5" />
+      <point x="416.5" y="281.0" />
+      <point x="354.625" y="281.0" />
+      <point x="25.875" y="125.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="316.5" y="232.0" />
+  <SelectedNodes>
+    <node>com.kings.design.structure.composite.Lol</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

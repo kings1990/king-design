@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kings.design.structure.decorate</OriginalElement>
+  <nodes>
+    <node x="253.50000000000003" y="129.0">com.kings.design.structure.decorate.CakeDecorate</node>
+    <node x="466.0" y="342.0">com.kings.design.structure.decorate.EggCakeDecorate</node>
+    <node x="362.5" y="0.0">com.kings.design.structure.decorate.Cake</node>
+    <node x="238.00000000000003" y="342.0">com.kings.design.structure.decorate.BeefCakeDecorate</node>
+    <node x="0.0" y="342.0">com.kings.design.structure.decorate.CreamCakeDecorate</node>
+    <node x="450.5" y="171.0">com.kings.design.structure.decorate.CakeImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kings.design.structure.decorate.BeefCakeDecorate" target="com.kings.design.structure.decorate.CakeDecorate">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="com.kings.design.structure.decorate.CakeDecorate" target="com.kings.design.structure.decorate.Cake">
+      <point x="0.0" y="-81.5" />
+      <point x="342.0" y="104.0" />
+      <point x="396.25" y="104.0" />
+      <point x="-33.75" y="39.5" />
+    </edge>
+    <edge source="com.kings.design.structure.decorate.EggCakeDecorate" target="com.kings.design.structure.decorate.CakeDecorate">
+      <point x="0.0" y="-60.5" />
+      <point x="566.5" y="317.0" />
+      <point x="401.0" y="317.0" />
+      <point x="59.0" y="81.5" />
+    </edge>
+    <edge source="com.kings.design.structure.decorate.CreamCakeDecorate" target="com.kings.design.structure.decorate.CakeDecorate">
+      <point x="0.0" y="-60.5" />
+      <point x="109.0" y="317.0" />
+      <point x="283.0" y="317.0" />
+      <point x="-59.0" y="81.5" />
+    </edge>
+    <edge source="com.kings.design.structure.decorate.CakeImpl" target="com.kings.design.structure.decorate.Cake">
+      <point x="0.0" y="-39.5" />
+      <point x="518.0" y="104.0" />
+      <point x="463.75" y="104.0" />
+      <point x="33.75" y="39.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="333.5" y="231.5" />
+  <SelectedNodes>
+    <node>com.kings.design.structure.decorate.CakeDecorate</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
