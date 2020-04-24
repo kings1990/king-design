@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kings.design.structure.flyweight</OriginalElement>
+  <nodes>
+    <node x="398.8416666666667" y="201.0">com.kings.design.structure.flyweight.NoSpriteBottleCup</node>
+    <node x="139.7833333333333" y="392.0">com.kings.design.structure.flyweight.SpriteBottleCupFactory</node>
+    <node x="0.0" y="159.0">com.kings.design.structure.flyweight.ActivitySpriteBottleCup</node>
+    <node x="432.94166666666666" y="541.0">com.kings.design.structure.flyweight.TestCase</node>
+    <node x="275.8416666666667" y="0.0">com.kings.design.structure.flyweight.SpriteBottleCup</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kings.design.structure.flyweight.ActivitySpriteBottleCup" target="com.kings.design.structure.flyweight.SpriteBottleCup">
+      <point x="0.0" y="-91.5" />
+      <point x="174.5" y="129.0" />
+      <point x="319.3416666666667" y="129.0" />
+      <point x="-58.0" y="49.5" />
+    </edge>
+    <edge source="com.kings.design.structure.flyweight.NoSpriteBottleCup" target="com.kings.design.structure.flyweight.SpriteBottleCup">
+      <point x="0.0" y="-49.5" />
+      <point x="507.8416666666667" y="139.0" />
+      <point x="435.3416666666667" y="139.0" />
+      <point x="58.0" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.45792880258899676" x="308.5" y="299.0" />
+  <SelectedNodes>
+    <node>com.kings.design.structure.flyweight.NoSpriteBottleCup</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

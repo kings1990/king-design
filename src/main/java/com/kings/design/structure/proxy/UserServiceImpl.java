@@ -1,6 +1,4 @@
-package com.kings.design.structure.proxy.cglib;
-
-import com.kings.design.structure.proxy.UserService;
+package com.kings.design.structure.proxy;
 
 public class UserServiceImpl implements UserService {
     @Override
