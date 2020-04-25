@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kings.design.behaviour.commond.AddCommond</OriginalElement>
+  <nodes>
+    <node x="288.0" y="395.0">com.kings.design.behaviour.commond.MultiplyCommond</node>
+    <node x="283.0" y="171.0">com.kings.design.behaviour.commond.CommondInterface</node>
+    <node x="0.0" y="374.0">com.kings.design.behaviour.commond.Invoker</node>
+    <node x="316.0" y="0.0">com.kings.design.behaviour.commond.Receive</node>
+    <node x="506.0" y="374.0">com.kings.design.behaviour.commond.AddCommond</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kings.design.behaviour.commond.AddCommond" target="com.kings.design.behaviour.commond.CommondInterface">
+      <point x="-37.0" y="-60.5" />
+      <point x="543.0" y="344.0" />
+      <point x="439.0" y="344.0" />
+      <point x="52.0" y="71.5" />
+    </edge>
+    <edge source="com.kings.design.behaviour.commond.MultiplyCommond" target="com.kings.design.behaviour.commond.CommondInterface">
+      <point x="49.5" y="-39.5" />
+      <point x="436.5" y="354.0" />
+      <point x="404.33333333333337" y="354.0" />
+      <point x="17.33333333333337" y="71.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="327.0" y="247.5" />
+  <SelectedNodes>
+    <node>com.kings.design.behaviour.commond.AddCommond</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
