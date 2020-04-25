@@ -1,5 +1,7 @@
 package com.kings.design.behaviour.chainrespon;
 
+import com.kings.design.behaviour.chainrespon.interfacemod.ChainComposite;
+
 public class TestCase1 {
     public static void main(String[] args) {
         ChainComposite composite = new ChainComposite();
