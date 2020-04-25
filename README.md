@@ -1,6 +1,6 @@
 # 设计模式
 
- [![Build Status](https://travis-ci.com/kings1990/king-design.svg?token=2Kow1x3qbJJcTj6zSMjX&branch=master)](https://travis-ci.com/kings1990/king-design) 
+  [![Build Status](https://travis-ci.com/kings1990/king-design.svg?token=2Kow1x3qbJJcTj6zSMjX&branch=master)](https://travis-ci.com/kings1990/king-design)  
 ![](https://img.shields.io/badge/language-java-orange.svg)
 
 ## 0.目录
@@ -22,17 +22,18 @@
   * 代理模式(proxy)
 
 - 行为型模式(behaviour)
-  * chainrespon 责任链模式
-  * 解释器模式（Interpreter）
-  * 迭代器模式（Iterator）
-  * 中介者模式（Mediator）
-  * 备忘录模式（Memento）
-  * 观察者模式（Observer）
-  * 状态模式（State）
-  * 空对象模式（Null Object）
-  * 策略模式（Strategy）
-  * 模板模式（Template）
-  * 访问者模式（Visitor）
+  * 责任链模式(chainrespon) 
+  * 命令模式(commond)
+  * 解释器模式(interpreter)
+  * 迭代器模式(iterator)
+  * 中介者模式(mediator)
+  * 备忘录模式(memento)
+  * 观察者模式(observer)
+  * 状态模式(state)
+  * 空对象模式(null  object)
+  * 策略模式(strategy)
+  * 模板模式(template)
+  * 访问者模式(visitor)
 
 
 ## 1.介绍
@@ -49,12 +50,12 @@
 3.通过引入配置文件，可以在不修改任何客户端代码的情况下更换和增加新的产品类，在一定程度下提高了灵活性
 
 缺点：
-1.工厂类集中了所有实例（产品）的创建逻辑，一旦这个工厂不能正常工作，整个系统都会受到影响；
+1.工厂类集中了所有实例(产品)的创建逻辑，一旦这个工厂不能正常工作，整个系统都会受到影响；
 2.违背“开放 - 关闭原则”，一旦添加新产品就不得不修改工厂类的逻辑，这样就会造成工厂逻辑过于复杂。
 3.简单工厂模式由于使用了静态工厂方法，静态方法不能被继承和重写，会造成工厂角色无法形成基于继承的等级结构。
 
 使用场景：客户如果只知道传入工厂类的参数，对于如何创建对象的逻辑不关心时；
-当工厂类负责创建的对象（具体产品）比较少时
+当工厂类负责创建的对象(具体产品)比较少时
 ```
 
 > 工厂模式(factory/dynamic)
@@ -94,8 +95,8 @@
 
 ```
 优点：
-1.在内存里只有一个实例，减少了内存的开销，尤其是频繁的创建和销毁实例（比如管理学院首页页面缓存）。
-2.避免对资源的多重占用（比如写文件操作）。
+1.在内存里只有一个实例，减少了内存的开销，尤其是频繁的创建和销毁实例(比如管理学院首页页面缓存)。
+2.避免对资源的多重占用(比如写文件操作)。
 缺点：没有接口，不能继承，与单一职责原则冲突，一个类应该只关心内部逻辑，而不关心外面怎么样来实例化。
 
 使用场景：
@@ -323,11 +324,11 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 1.远程代理。 
 2.虚拟代理。 
 3.Copy-on-Write 代理。 
-4.保护（Protect or Access）代理。 
+4.保护(Protect or Access)代理。 
 5.Cache代理。 
-6.防火墙（Firewall）代理。 
-7.同步化（Synchronization）代理。 
-8.智能引用（Smart Reference）代理。
+6.防火墙(Firewall)代理。 
+7.同步化(Synchronization)代理。 
+8.智能引用(Smart Reference)代理。
 
 注意事项： 
 1.和适配器模式的区别：适配器模式主要改变所考虑对象的接口，而代理模式不能改变所代理类的接口。 2.和装饰器模式的区别：装饰器模式为了增强功能，而代理模式是为了加以控制。
@@ -380,7 +381,7 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 注意事项：系统需要支持命令的撤销(Undo)操作和恢复(Redo)操作，也可以考虑使用命令模式，见命令模式的扩展。
 ```
 
-> 解释器模式（Interpreter）
+> 解释器模式(Interpreter)
 
 ```
 应用实例：编译器、运算表达式计算。
@@ -397,7 +398,7 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 注意事项：可利用场景比较少，JAVA 中如果碰到可以用 expression4J 代替。
 ```
 
-> 迭代器模式（Iterator）
+> 迭代器模式(Iterator)
 
 ```
 应用实例：JAVA 中的 iterator。
@@ -413,10 +414,10 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 注意事项：迭代器模式就是分离了集合对象的遍历行为，抽象出一个迭代器类来负责，这样既可以做到不暴露集合的内部结构，又可让外部代码透明地访问集合内部的数据
 ```
 
-> 中介者模式（Mediator）
+> 中介者模式(Mediator)
 
 ```
-应用实例： 1、中国加入 WTO 之前是各个国家相互贸易，结构复杂，现在是各个国家通过 WTO 来互相贸易。 2、机场调度系统。 3、MVC 框架，其中C（控制器）就是 M（模型）和 V（视图）的中介者。
+应用实例： 1、中国加入 WTO 之前是各个国家相互贸易，结构复杂，现在是各个国家通过 WTO 来互相贸易。 2、机场调度系统。 3、MVC 框架，其中C(控制器)就是 M(模型)和 V(视图)的中介者。
 
 优点： 
 1、降低了类的复杂度，将一对多转化成了一对一。 2、各个类之间的解耦。 3、符合迪米特原则。
@@ -429,7 +430,7 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 注意事项：不应当在职责混乱的时候使用。
 ```
 
-> 备忘录模式（Memento）
+> 备忘录模式(Memento)
 
 ```
 应用实例： 1、后悔药。 2、打游戏时的存档。 3、Windows 里的 ctri + z。 4、IE 中的后退。 4、数据库的事务管理。
@@ -446,7 +447,7 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 1、为了符合迪米特原则，还要增加一个管理备忘录的类。 2、为了节约内存，可使用原型模式+备忘录模式。
 ```
 
-> 观察者模式（Observer）
+> 观察者模式(Observer)
 
 ```
 应用实例： 1、拍卖的时候，拍卖师观察最高标价，然后通知给其他竞价者竞价。 2、西游记里面悟空请求菩萨降服红孩儿，菩萨洒了一地水招来一个老乌龟，这个乌龟就是观察者，他观察菩萨洒水这个动作。
@@ -458,7 +459,7 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 1、如果一个被观察者对象有很多的直接和间接的观察者的话，将所有的观察者都通知到会花费很多时间。 2、如果在观察者和观察目标之间有循环依赖的话，观察目标会触发它们之间进行循环调用，可能导致系统崩溃。 3、观察者模式没有相应的机制让观察者知道所观察的目标对象是怎么发生变化的，而仅仅只是知道观察目标发生了变化。
 ```
 
-> 状态模式（State）
+> 状态模式(State)
 
 ```
 优点：
@@ -480,15 +481,15 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 注意事项：在行为受状态约束的时候使用状态模式，而且状态不超过 5 个。
 ```
 
-> 空对象模式（Null Object）
+> 空对象模式(Null Object)
 
 ```
-在空对象模式（Null Object Pattern）中，一个空对象取代 NULL 对象实例的检查。Null 对象不是检查空值，而是反应一个不做任何动作的关系。这样的 Null 对象也可以在数据不可用的时候提供默认的行为。
+在空对象模式(Null Object Pattern)中，一个空对象取代 NULL 对象实例的检查。Null 对象不是检查空值，而是反应一个不做任何动作的关系。这样的 Null 对象也可以在数据不可用的时候提供默认的行为。
 
 在空对象模式中，我们创建一个指定各种要执行的操作的抽象类和扩展该类的实体类，还创建一个未对该类做任何实现的空对象类，该空对象类将无缝地使用在需要检查空值的地方
 ```
 
-> 策略模式（Strategy）
+> 策略模式(Strategy)
 
 ```
 应用实例： 1、诸葛亮的锦囊妙计，每一个锦囊就是一个策略。 2、旅行的出游方式，选择骑自行车、坐汽车，每一种旅行方式都是一个策略。 3、JAVA AWT 中的 LayoutManager。
@@ -505,7 +506,7 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 注意事项：如果一个系统的策略多于四个，就需要考虑使用混合模式，解决策略类膨胀的问题。
 ```
 
-> 模板模式（Template）
+> 模板模式(Template)
 
 ```
 应用实例： 1、在造房子的时候，地基、走线、水管都一样，只有在建筑的后期才有加壁橱加栅栏等差异。 2、西游记里面菩萨定好的 81 难，这就是一个顶层的逻辑骨架。 3、spring 中对 Hibernate 的支持，将一些已经定好的方法封装起来，比如开启事务、获取 Session、关闭 Session 等，程序员不重复写那些已经规范好的代码，直接丢一个实体就可以保存。
@@ -521,7 +522,7 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 注意事项：为防止恶意操作，一般模板方法都加上 final 关键词。
 ```
 
-> 访问者模式（Visitor）
+> 访问者模式(Visitor)
 
 ```
 应用实例：您在朋友家做客，您是访问者，朋友接受您的访问，您通过朋友的描述，然后对朋友的描述做出一个判断，这就是访问者模式。
@@ -545,9 +546,9 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 
 》接口实现：虚线三角形箭头，指向父类
 
-》依赖：虚线普通箭头，指向被调用者，其中带有create的虚线是指创建（new）被调用者
+》依赖：虚线普通箭头，指向被调用者，其中带有create的虚线是指创建(new)被调用者
 
-》关联（Association).聚合（Aggregation）.组合(Composition)
+》关联(Association).聚合(Aggregation).组合(Composition)
 
 区别
 
