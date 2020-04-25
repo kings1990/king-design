@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kings.design.behaviour.chainrespon.ChainFactory</OriginalElement>
+  <nodes>
+    <node x="327.75000000000006" y="323.0">com.kings.design.behaviour.chainrespon.DutyPosition</node>
+    <node x="270.37023809523816" y="859.0">com.kings.design.behaviour.chainrespon.ChainFactory</node>
+    <node x="525.0" y="699.0">com.kings.design.behaviour.chainrespon.LeaveRequestSubmit</node>
+    <node x="243.00000000000006" y="0.0">com.kings.design.behaviour.chainrespon.LeaveRequest</node>
+    <node x="262.00000000000006" y="688.0">com.kings.design.behaviour.chainrespon.Leader</node>
+    <node x="0.0" y="688.0">com.kings.design.behaviour.chainrespon.Manager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kings.design.behaviour.chainrespon.Manager" target="com.kings.design.behaviour.chainrespon.DutyPosition">
+      <point x="0.0" y="-60.5" />
+      <point x="121.0" y="648.0" />
+      <point x="345.03571428571433" y="648.0" />
+      <point x="-103.71428571428572" y="147.5" />
+    </edge>
+    <edge source="com.kings.design.behaviour.chainrespon.Leader" target="com.kings.design.behaviour.chainrespon.DutyPosition">
+      <point x="80.66666666666669" y="-60.5" />
+      <point x="463.66666666666674" y="668.0" />
+      <point x="448.75000000000006" y="668.0" />
+      <point x="0.0" y="147.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8012820512820513" x="376.5" y="458.0" />
+  <SelectedNodes>
+    <node>com.kings.design.behaviour.chainrespon.ChainFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

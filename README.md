@@ -14,12 +14,15 @@
   * prototype 原型模式
 - 结构型模式(structure)
   * adaptor 适配器模式
-  * proxy 代理模式
   * bridge 桥接模式
   * composite 组合模式
   * decorate 装饰器模式
   * facecade 外观模式
+  * flyweight 享元模式
+  * proxy 代理模式
+    
 - 行为型模式(behaviour)
+  * chainrespon 责任链模式
   * state 状态模式
 
 
@@ -267,7 +270,7 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 
 > 代理模式proxy
 ```
-> 应用实例：  
+应用实例：  
 1.Windows 里面的快捷方式。  
 2.猪八戒去找高翠兰结果是孙悟空变的，可以这样理解：把高翠兰的外貌抽象出来，高翠兰本人和孙悟空都实现了这个接口，猪八戒访问高翠兰的时候看不出来这个是孙悟空，所以说孙悟空是高翠兰代理类。 
 3.买火车票不一定在火车站买，也可以去代售点。 
@@ -297,7 +300,32 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 ```
 
 ### 1.3 行为型模式(behaviour)
+> 责任链模式(chainrespon)  
 
+```
+应用实例： 
+1.红楼梦中的"击鼓传花"。 
+2.JS 中的事件冒泡。 
+3.JAVA WEB 中 Apache Tomcat 对 Encoding 的处理，Struts2 的拦截器，jsp servlet 的 Filter。
+
+优点： 
+1.降低耦合度。它将请求的发送者和接收者解耦。 
+2.简化了对象。使得对象不需要知道链的结构。 
+3.增强给对象指派职责的灵活性。通过改变链内的成员或者调动它们的次序，允许动态地新增或者删除责任。 
+4.增加新的请求处理类很方便。
+
+缺点： 
+1.不能保证请求一定被接收。 
+2.系统性能将受到一定影响，而且在进行代码调试时不太方便，可能会造成循环调用。 
+3.可能不容易观察运行时的特征，有碍于除错。
+
+使用场景： 
+1.有多个对象可以处理同一个请求，具体哪个对象处理该请求由运行时刻自动确定。 
+2.在不明确指定接收者的情况下，向多个对象中的一个提交一个请求。 
+3.可动态指定一组对象处理请求。
+
+注意事项：在 JAVA WEB 中遇到很多应用。
+```
 > 状态模式(state)
 
 ```
