@@ -17,7 +17,7 @@ package com.kings.design.creational.singleton;
 public class SingletonLanhanSync {
     private static final SingletonLanhanSync INSTANCE = new SingletonLanhanSync();
 
-    public SingletonLanhanSync() {
+    private SingletonLanhanSync() {
     }
 
     public static synchronized SingletonLanhanSync getInstance(){

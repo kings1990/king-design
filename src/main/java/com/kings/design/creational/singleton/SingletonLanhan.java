@@ -15,7 +15,7 @@ package com.kings.design.creational.singleton;
 public class SingletonLanhan {
     private static SingletonLanhan INSTANCE;
 
-    public SingletonLanhan() {
+    private SingletonLanhan() {
     }
 
     public static SingletonLanhan getInstance(){

@@ -18,7 +18,7 @@ package com.kings.design.creational.singleton;
 public class SingletonLanhanSyncDoubleCheck {
     private static volatile SingletonLanhanSyncDoubleCheck INSTANCE = new SingletonLanhanSyncDoubleCheck();
 
-    public SingletonLanhanSyncDoubleCheck() {
+    private SingletonLanhanSyncDoubleCheck() {
     }
 
     public static SingletonLanhanSyncDoubleCheck getInstance(){

@@ -14,7 +14,7 @@ package com.kings.design.creational.singleton;
 public class SingletonEhan {
     private static final SingletonEhan INSTANCE = new SingletonEhan();
 
-    public SingletonEhan() {
+    private SingletonEhan() {
     }
 
     public static synchronized SingletonEhan getInstance(){
