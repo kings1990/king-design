@@ -593,9 +593,9 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 
 》接口实现：虚线三角形箭头，指向父类
 
-》依赖：虚线普通箭头，指向被调用者，其中带有create的虚线是指创建(new)被调用者
+》依赖：虚线普通箭头，指向被调用者，其中带有create的虚线是指创建(new)被调用者(弱关系)
 
-》关联(Association).聚合(Aggregation).组合(Composition)
+》关联(Association).聚合(Aggregation).组合(Composition)  (强关系)
 
 区别
 
