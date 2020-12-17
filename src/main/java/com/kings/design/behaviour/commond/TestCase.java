@@ -11,7 +11,6 @@ public class TestCase {
         invoker.compute(4);
         invoker.undo();
         
-
         CommondInterface multiplyCommond = new MultiplyCommond();
         invoker.setCommondInterface(multiplyCommond);
         invoker.compute(10);

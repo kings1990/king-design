@@ -5,7 +5,7 @@ import java.util.Stack;
 public class Calculator {
     private Node node;
     private String statement;
-
+    
     public void build(String statement) {
         Node left = null;
         Node right = null;
@@ -17,17 +17,17 @@ public class Calculator {
             String s = statementArray[i];
             if ("*".equalsIgnoreCase(s)) {
                 left = (Node) stack.pop();
-                int val = Integer.parseInt(statementArray[++i]);
+                int val = Integer.parseInt(statementArray[++ i]);
                 right = new ValueNode(val);
                 stack.push(new MultiplyNode(left, right));
             } else if ("+".equalsIgnoreCase(s)) {
                 left = (Node) stack.pop();
-                int val = Integer.parseInt(statementArray[++i]);
+                int val = Integer.parseInt(statementArray[++ i]);
                 right = new ValueNode(val);
                 stack.push(new AddNode(left, right));
             } else if ("%".equalsIgnoreCase(s)) {
                 left = (Node) stack.pop();
-                int val = Integer.parseInt(statementArray[++i]);
+                int val = Integer.parseInt(statementArray[++ i]);
                 right = new ValueNode(val);
                 stack.push(new ModNode(left, right));
             } else {
@@ -38,10 +38,10 @@ public class Calculator {
         this.node = (Node) stack.pop();
     }
     
-    public int compute(){
+    public int compute() {
         return node.interpret();
     }
-
+    
 }
 
 

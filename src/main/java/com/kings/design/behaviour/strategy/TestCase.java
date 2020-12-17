@@ -6,7 +6,7 @@ public class TestCase {
         room.setPrice(100);
         room.setCard(new StudentCard());
         System.out.println(room.getPrice());
-
+        
         room.setCard(new VipCard());
         System.out.println(room.getPrice());
     }

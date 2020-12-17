@@ -7,9 +7,9 @@ public class TestCase {
         container.add("2");
         container.add("3");
         container.add("4");
-
+        
         MyIterator iterator = container.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
     }

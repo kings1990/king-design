@@ -6,16 +6,16 @@ import java.util.List;
 public class WeatherSubject implements Subject {
     int temperature, airPressure, humidity;
     List<Observe> observeList;
-
+    
     public WeatherSubject() {
         observeList = new ArrayList<>();
     }
-
+    
     @Override
     public void register(Observe observe) {
         observeList.add(observe);
     }
-
+    
     @Override
     public void remove(Observe observe) {
         int i = observeList.indexOf(observe);
@@ -23,14 +23,14 @@ public class WeatherSubject implements Subject {
             observeList.remove(i);
         }
     }
-
+    
     @Override
     public void nodify() {
         for (Observe observe : observeList) {
             observe.update(temperature, airPressure, humidity);
         }
     }
-
+    
     public void setWeather(int temperature, int airPressure, int humidity) {
         this.temperature = temperature;
         this.airPressure = airPressure;

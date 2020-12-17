@@ -1,6 +1,6 @@
 package com.kings.design.structure.bridge;
 
-public class CarImpl extends Car{
+public class CarImpl extends Car {
     
     @Override
     void makeCar(String carType) {

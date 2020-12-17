@@ -1,7 +1,7 @@
 package com.kings.design.structure.adaptor;
 
 public class CarAdaptorImpl implements CarAdaptor {
-
+    
     public Car createCar(String carType) {
         //适配类型
         Car car;
@@ -14,8 +14,8 @@ public class CarAdaptorImpl implements CarAdaptor {
         }
         return car;
     }
-
-
+    
+    
     @Override
     public Car changeCarColor(Car c, String color) {
         c.setColor(color);

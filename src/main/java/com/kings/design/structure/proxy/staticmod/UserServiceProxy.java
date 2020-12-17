@@ -5,7 +5,7 @@ import com.kings.design.structure.proxy.UserService;
 
 public class UserServiceProxy implements UserService {
     
-    private UserService userService;
+    private final UserService userService;
     
     public UserServiceProxy(UserService userService) {
         this.userService = userService;

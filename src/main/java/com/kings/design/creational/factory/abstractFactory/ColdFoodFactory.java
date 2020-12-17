@@ -1,6 +1,9 @@
 package com.kings.design.creational.factory.abstractFactory;
 
-import com.kings.design.creational.factory.*;
+import com.kings.design.creational.factory.AbstractMilk;
+import com.kings.design.creational.factory.AbstractPizza;
+import com.kings.design.creational.factory.AppleMilk;
+import com.kings.design.creational.factory.VeggPizza;
 
 public class ColdFoodFactory implements AbstractFactoryI {
     @Override

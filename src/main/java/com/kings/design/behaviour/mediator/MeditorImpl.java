@@ -1,10 +1,10 @@
 package com.kings.design.behaviour.mediator;
 
 public class MeditorImpl extends Meditor {
-
+    
     public PersonSeller personSeller;
     public PersonBuyer personBuyer;
-
+    
     @Override
     public void contact(String message, Person person) {
         if (person == personSeller) {
@@ -13,16 +13,16 @@ public class MeditorImpl extends Meditor {
             personSeller.getMessage(message);
         }
     }
-
+    
     public void setPersonSeller(PersonSeller personSeller) {
         this.personSeller = personSeller;
     }
-
+    
     public void setPersonBuyer(PersonBuyer personBuyer) {
         this.personBuyer = personBuyer;
     }
-
-
+    
+    
 }
 
 

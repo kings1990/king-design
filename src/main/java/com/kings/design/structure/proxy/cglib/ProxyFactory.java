@@ -12,7 +12,7 @@ import java.lang.reflect.Method;
  */
 public class ProxyFactory implements MethodInterceptor {
     //维护目标对象
-    private Object target;
+    private final Object target;
     
     public ProxyFactory(Object target) {
         this.target = target;

@@ -7,7 +7,7 @@ public class LeaveRequest {
     private String name;
     private Integer days;
     private String reason;
-
+    
     public LeaveRequest(String name, Integer days, String reason) {
         this.name = name;
         this.days = days;
