@@ -1,6 +1,6 @@
 # 设计模式
 
-[![Build Status](https://travis-ci.com/kings1990/king-design.svg?token=2Kow1x3qbJJcTj6zSMjX&branch=master)](https://travis-ci.com/kings1990/king-design) ![](https://img.shields.io/badge/language-java-orange.svg)
+[![Build Status](https://travis-ci.com/kings1990/king-design.svg?branch=master)](https://travis-ci.com/kings1990/king-design) ![](https://img.shields.io/badge/language-java-orange.svg)
 
 ## 0.目录
 
