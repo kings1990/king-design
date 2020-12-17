@@ -12,6 +12,8 @@
   * 单例模式(singleton)
   * 建造者模式(builder)
   * 原型模式(prototype)
+
+
 - 结构型模式(structure)
   * 适配器模式(adaptor)
   * 桥接模式(bridge)
@@ -20,6 +22,7 @@
   * 外观模式(facecade)
   * 享元模式(flyweight)
   * 代理模式(proxy)
+
 
 - 行为型模式(behaviour)
   * 责任链模式(chainrespon)
@@ -589,16 +592,15 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 # 2.UML解读
 
 ```
-》继承：实线三角形箭头，指向父类
+1.继承：实线三角形箭头，指向父类
 
-》接口实现：虚线三角形箭头，指向父类
+2.接口实现：虚线三角形箭头，指向父类
 
-》依赖：虚线普通箭头，指向被调用者，其中带有create的虚线是指创建(new)被调用者(弱关系)
+3.依赖：虚线普通箭头，指向被调用者，其中带有create的虚线是指创建(new)被调用者
 
-》关联(Association).聚合(Aggregation).组合(Composition)  (强关系)
+4.关联(Association).聚合(Aggregation).组合(Composition)
 
-区别
-
+> 区别
 三者在代码上的表现相同，只是语意上有所差别。
 
 组合：整体和部分同生共死，部分无法离开整体单独存在
