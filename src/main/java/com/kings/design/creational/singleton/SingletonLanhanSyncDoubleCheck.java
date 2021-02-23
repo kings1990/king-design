@@ -16,9 +16,10 @@ package com.kings.design.creational.singleton;
  * @date 2020.04.09
  */
 public class SingletonLanhanSyncDoubleCheck {
-    private static volatile SingletonLanhanSyncDoubleCheck INSTANCE = new SingletonLanhanSyncDoubleCheck();
+    private static volatile SingletonLanhanSyncDoubleCheck INSTANCE;
 
     private SingletonLanhanSyncDoubleCheck() {
+        //防止外部创建
     }
 
     public static SingletonLanhanSyncDoubleCheck getInstance(){
