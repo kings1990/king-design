@@ -29,6 +29,7 @@ public class MapperProxy implements InvocationHandler {
     
     public Object commonExecute(Method method,Object [] args){
         System.out.println("处理xxx");
+        System.out.println(method);
         System.out.println(args);
         return null;
     }

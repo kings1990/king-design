@@ -12,8 +12,9 @@ public class Test {
         UserService userService = new UserServiceImpl();
         ((UserService) new ProxyFactory(userService).getProxyInstance()).save();
 
+        //模拟mybatis的动态代理
         MapperProxy mapperProxy = new MapperProxy(TestMapper.class);
-        ((TestMapper)Proxy.newProxyInstance(mapperProxy.getClass().getClassLoader(), new Class[] { mapperProxy.getCls() }, mapperProxy)).selectXyz();
+        ((TestMapper)Proxy.newProxyInstance(mapperProxy.getClass().getClassLoader(), new Class[] { mapperProxy.getCls() }, mapperProxy)).selectXyz("ws");
         
     }
 }
