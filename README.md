@@ -608,7 +608,7 @@ ServletInvocableHandlerMethod.invokeAndHandle(52)->InvocableHandlerMethod.invoke
 
 关联：代表一种拥有关系
 
-三种类型在IntelliJ IDEA均以实线+菱形箭头+普通箭头表示，菱形箭头指向整体，普通箭头指向部分，箭头两端的数字表示实例的个数
+三种类型在IntelliJ IDEA均以实线+菱形箭头+普通箭头表示，菱形箭头指向整体，普通箭头指向部分，箭头两端的数字表示实例的个数 
 
 ```
 
